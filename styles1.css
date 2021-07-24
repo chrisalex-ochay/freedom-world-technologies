@@ -7,7 +7,7 @@ body{
     margin: 0;
 }
 .header{
-    background: #0e5981 url(/images/images777.jpg) center bottom;
+    background: #0e5981 url(images/images777.jpg) center bottom;
     /*  */
     background-size: cover;
     min-height: 100vh;
