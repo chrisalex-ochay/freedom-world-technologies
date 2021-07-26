@@ -22,56 +22,113 @@
     <!-- owl carousel css file cdn link -->
     <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
-     <!-- ========================= testing navbar ============================ -->
-
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-      <!-- ========================= testing navbar ============================ -->
+       <!-- Bootstrap and J-query library links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
      
-      <!-- --------=----------- header starts -----------=-----  -->
-      <div class="header">
-        <div class="container">
-            <!-- <div class="navbar"> -->
-                <div class="logo">
-                    <a href="../index.html"><img src="../images/my-logo2.png" width="180px"></a>
-                </div>
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="../index.html"><i class="fas fa-home"></i>Home</a></li>
-                        <li><a href="../products-page1.html"><i class="fa fa-diamond fa-spin" 
-                            style="font-size:16px"></i>Products</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle" 
-                            data-toggle="dropdown" href="#"><i class="fab fa-accusoft"></i>Services <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Website Development</a></li>
-                              <li><a href="#">Mobile App Development</a></li>
-                              <li><a href="#">Software & Systems Development</a></li>
-                              <li><a href="#">Asycuda World Installation</a></li>
-                              <li><a href="#">Software Installations</a></li>
-                              <li><a href="#">ISP services</a></li>
-                              <li><a href="#">Automatic Timetable Dev't & Services</a></li>
-                              <li><a href="#">Computer Literacy Training</a></li>
-                              <li><a href="#">Internet Cafe Services</a></li>
-                              <li><a href="#">Phone & Computer Repairing</a></li>
-                              <li><a href="#">General I.T consultacy</a></li>
-                            </ul>
-                          </li>
-                        <li><a href="../aboutus.html"><i class="fas fa-info-circle"></i>About Us</a></li>
-                        <li><a href="../contactus.html"><i class="fa fa-phone-square" aria-hidden="true"></i>
-                            Contact Us</a></li>
-                        <li><a href="../account.html"><span class="glyphicon glyphicon-user"></span>Account</a></li>
-                        <li><a href="../cart.html" class="fas fa-shopping-cart"></a></li>
-    
-                    </ul>
-                </nav>
-                <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+     <!-- -------------------------header1 starts-------------------- --- -->
+     <header class="header1">
+        <div class="container1">
+            <div class="header_left">
+                <a href="../index.html" class="mylogo"><img src="../images/my-logo-3.png" alt=""></a>
+            </div>
+            <div class="header_right">
+                <label for="navTrigger" class="nav_icon"><i class="fa fa-bars"></i></label>
+                <input id="navTrigger" type="checkbox" name="">
+              <nav class="main_nav">
+                  <ul>
+                      <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                      <li><a href="../products-page1.html"><span class="glyphicon glyphicon-asterisk "></span>Products</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-globe"></span>Services</a>
+                        <i class="fa fa-sort-desc"></i>
+                        <ul>
+                            <li><a href="#">Website Development</a>
+                                <i class="fa fa-sort-desc"></i>
+                                <ul>
+                                    <li><a href="#">Personal Website</a></li>
+                                    <li><a href="#">Company Website</a></li>
+                                    <li><a href="#">E-commerce Website</a></li>
+                                    <li><a href="#">NGO Website</a></li>
+                                    <li><a href="#">And More</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Mobile App Development</a></li>
+                            <li><a href="#">Software/Systems Dev't</a>
+                                <i class="fa fa-sort-desc"></i>
+                                <ul>
+                                    <li><a href="#">ERP program</a></li>
+                                    <li><a href="#">Sacco Mgt System</a></li>
+                                    <li><a href="#">POS system</a></li>
+                                    <li><a href="#">Any More</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Software Installations</a>
+                                <i class="fa fa-sort-desc"></i>
+                                <ul>
+                                    <li><a href="#">Asycuda World</a></li>
+                                    <li><a href="#">MS Windows OS</a>
+                                        <i class="fa fa-sort-desc"></i>
+                                        <ul>
+                                            <li><a href="#">Windows 10</a></li>
+                                            <li><a href="#">Windows 8.1</a></li>
+                                            <li><a href="#">Windows 8</a></li>
+                                            <li><a href="#">Windows 7</a></li>
+                                            <li><a href="#">Windows XP</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Linux</a></li>
+                                    <li><a href="#">Microsoft office</a>
+                                        <i class="fa fa-sort-desc"></i>
+                                        <ul>
+                                            <li><a href="#">Office 2019</a></li>
+                                            <li><a href="#">Office 2016</a></li>
+                                            <li><a href="#">Office 2013</a></li>
+                                            <li><a href="#">Office 2010</a></li>
+                                            <li><a href="#">Office 2007</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Anti-virus</a></li>
+                                    <li><a href="#">And Many More</a></li>
+                                </ul>    
+                            </li>
+                            <li><a href="#">ISP services</a>
+                                <i class="fa fa-sort-desc"></i>
+                                <ul>
+                                    <li><a href="#">Zuku Internet</a></li>
+                                    <li><a href="#">Smart Mobile Internet</a></li>
+                                    <li><a href="#">Simba Telecom</a></li>
+                                    <li><a href="#">And Others</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Automatic Timetable Dev't</a></li>
+                            <li><a href="#">Computer Literacy lessons</a>
+                                <i class="fa fa-sort-desc"></i>
+                                <ul>
+                                    <li><a href="#">MS Word,Excel etc</a></li>
+                                    <li><a href="#">Programming</a></li>
+                                    <li><a href="#">Database</a></li>
+                                    <li><a href="#">And Others</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Internet Cafe Services</a></li>
+                            <li><a href="#">Phone/Computer Repairing</a></li>
+                            <li><a href="#">General I.T consultacy</a></li>
+                        </ul>  
+                      </li>
+                      <li><a href="../aboutus.html"><span class="glyphicon glyphicon-info-sign"></span>About Us</a></li>
+                      <li><a href="../contactus.html"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
+                      <li><a href="../account.html"><span class="glyphicon glyphicon-user"></span>Account</a></li>
+                      <li><a href="../cart.html" class="fas fa-shopping-cart"></a></li>
+                  </ul>
+              </nav>
+            </div>
         </div>
-    </div>
-    <!-- --------=----------- header ends -----------=-----  -->
+    </header>
+
+    <!-- -------------------------header1 ends-------------------- --- -->
 
 <!-----------------------------   single product details  ---------------------->
     <div class="small-container single-product">
@@ -180,59 +237,56 @@
     </div>
 
 <!----------------------    footer   ---------------------->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download our App</h3>
-                    <p>Download App for Android and ios mobile phone.</p>
-                    <div class="app-logo">
-                        <img src="../images/play-store.png">
-                        <img src="../images/app-store.png">
-                    </div>
-                </div>
-                <div class="footer-col-2">
-                    <img src="../images/my-logo3.png">
-                    <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of Sports Accessible to the 
-                       Many.
-                    </p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
-                    <ul>
-                        <li>Coupons</li>
-                        <li>Blog post</li>
-                        <li>Return Policy</li>
-                        <li>Join Affiliate</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>Follow us</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Youtube</li>
-                    </ul>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios mobile phone<br> soon coming.</p>
+                <div class="app-logo">
+                    <img src="../images/play-store.png">
+                    <img src="../images/app-store.png">
                 </div>
             </div>
-            <hr>
-            <p class="copyright"> Copyright 2021 - Freedom Technologies</p>
+            <div class="footer-col-2">
+                <a href="../index.html"><img src="../images/my-logo-1.png"></a>
+                <p>Our vision is to serve, empower, enrich and produce quality technologies, standard electronics and the finest
+                    accesories for local and global consumption.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Quality Products</h3>
+                <ul>
+                    <li><a href="../products-page1.html">Page1</a></li>
+                    <li><a href="../products-page2.html">Page2</a></li>
+                    <li><a href="../products-page3.html">Page3</a></li>
+                    <li><a href="../index.html">Featured prdts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Alternatitive links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../aboutus.html">Our Mision/Vision</a></li>
+                    <li><a href="../contactus.html">Connect with us</a></li>
+                    <li><a href="../account.html">Create an acount with us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col-5">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
         </div>
+        <hr>
+        <p class="copyright"> Copyright 2021 - Freedom World Technologies</p>
     </div>
-
-<!------------------  js for toggle menu  ----------------->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px";
-        function menutoggle(){
-            if(MenuItems.style.maxHeight == "0px"){
-                MenuItems.style.maxHeight = "200px";
-            }else{
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
+</div>
 
 <!-- --------------- js for single product detail/product gallery-------------- -->
 
